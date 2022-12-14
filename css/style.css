@@ -38,6 +38,7 @@ header {
     flex-direction: column;
     /* background-color: rgb(51 51 51 / 80%); */
     background-image: linear-gradient(to right,#b98a75, #14ed25);
+    background-image: linear-gradient(to right,#77e696, #1ccb19);
     color: #fff;
     width: 100%;
     height: 30%;
