@@ -123,15 +123,47 @@ h2 {
 }
 
 #about-sec div {
-    background-color: beige;
-    height: 500px;
-    width: 900px;
+    background-color: rgb(245 245 220 / 95%);
+    height: 550px;
+    width: 750px;
     position: absolute;
     bottom: -80px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+    padding: 20px 30px;
+    line-height: 1.6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#about-sec img {
+    width: 255px;
+    float: left;
+    margin-right: 38px;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    box-shadow: 4px 4px 10px #4e8d1e;
+
+}
+
+#about-sec h1, h2 {
+    text-align: center;
+}
+
+#about-sec h1 {
+    font-size: 38px;
+    color: #d44545;
+}
+
+#about-sec h2 {
+    margin-bottom: 15px;
+}
+
+
+#about-sec p {
+    text-align: justify;
 }
 
 
