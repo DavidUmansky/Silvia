@@ -110,10 +110,17 @@ ul {
     text-shadow: -3px 2px 1px #5a5c4f, -2px 1px 25px #7e0c0c;
 }
 
-h2 {
+h2, h3 {
     color: #fbfdfe;
     text-shadow: -2px 1px 5px #1bd223;
     font-size: xx-large;
+}
+
+h3 {
+    color: #d44545;
+    text-align: center;
+    margin-top: initial;
+    margin-left: 15px;
 }
 
 #about-sec {
@@ -122,9 +129,9 @@ h2 {
     position: relative;
 }
 
-#about-sec div {
+#about-sec #div {
     background-color: rgb(245 245 220 / 95%);
-    height: 550px;
+    height: 635px;
     width: 750px;
     position: absolute;
     bottom: -80px;
@@ -132,6 +139,7 @@ h2 {
     margin-right: auto;
     left: 0;
     right: 0;
+    top: 40px;
     padding: 20px 30px;
     line-height: 1.6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -167,7 +175,39 @@ h2 {
 }
 
 
+#about-sec a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fbfdfe;
+    background-color: #d44545;
+    padding: 15px 55px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+}
 
+#about-sec a:hover {
+    background-color: #5ab879;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#about-sec a img {
+    width: 30px;
+    box-shadow: initial;
+    margin-right: initial;
+    margin-bottom: initial;
+    margin-top: initial;
+    float: right;
+    margin-left: 20px;
+}
+
+#click {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @keyframes move {
