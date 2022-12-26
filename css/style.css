@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Noto Sans Hebrew', sans-serif;
+    background: #fcd8ab;
 }
 
 .flex-items {
@@ -127,6 +128,7 @@ h3 {
     height: 500px;
     background: url(../img/about2.webp) no-repeat top center/cover;
     position: relative;
+    margin-bottom: 250px;
 }
 
 #about-sec #div {
@@ -160,7 +162,7 @@ h3 {
     text-align: center;
 }
 
-#about-sec h1 {
+#about-sec h1, .container h1 {
     font-size: 38px;
     color: #d44545;
 }
@@ -210,12 +212,13 @@ h3 {
 }
 
 #back {
-    background: url(../img/background.webp) no-repeat center center/cover;
+    background: url(../img/background.webp) no-repeat top center/cover;
     height: 100vh;
     position: relative;
     color: #fff;
     padding: 30px;
     background-attachment: fixed;
+    margin-top: 40px;
 }
 
 #back::before {
@@ -225,7 +228,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(48 21 21 / 80%);
+    background: rgb(48 21 21 / 60%);
 }
 
 #back * {
@@ -260,6 +263,41 @@ h3 {
 
 .add-right {
     border-right: 1px solid rgb(179 122 122 / 50%);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 50%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
 }
 
 

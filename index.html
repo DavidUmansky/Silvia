@@ -11,6 +11,7 @@
     <meta name="keywords"
         content="יצחק מילר, מוזיקה יהודית, מוזיקה חסידית, חזנות, זמר אירועים דתי, קרליבך, מורה חזנות, מורה נוסח תפילה, מורה קריאה בתורה, קורס חזנות, קורס קריאה בתורה, זמר הופעות דתי, זמר לנופש דתי, חזן לשבת, חזן לימים נוראים, חזן לחגים, זמר חתונה דתי, זמר קבל פנים דתי, שירי קרליבך, חזנות קרליבך, זמר דתי למוסדות, זמר דתי יום הולדת, סדנת חזנות, סדנת שירה ופיתוח קול לדתיים">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>סילביה פנחס-סדנת מנדלות|ציור מנדלות| חוג ציור|חוג אומנות</title>
 </head>
 
@@ -90,10 +91,25 @@
     </section>
 
 
-    <div style="height: 400px;">
+    <div class="container" dir="ltr">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <h1>יצירות</h1>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/test1.jpg"></div>
+                <div class="swiper-slide"><img src="img/test2.jpg"></div>
+                <div class="swiper-slide"><img src="img/test3.jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
-
 
     <section id="back">
         <div class="flex-items flex-items2">
@@ -122,21 +138,8 @@
         </div>
     </section>
 
-    <div style="height: 600px;">
 
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script src="main.js"></script>
 </body>
