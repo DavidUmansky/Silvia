@@ -12,8 +12,8 @@ window.addEventListener('scroll', function () {
     // console.log(window.pageYOffset);
     if (window.pageYOffset > 900) {
         let offset = window.scrollY;
-        parallax.style.backgroundPositionY = offset * -0.15 + 100 + 'px';
-    } 
+        parallax.style.backgroundPositionY = offset * -0.15 + 200 + 'px';
+    }
 })
 
 const swiper = new Swiper('.swiper', {

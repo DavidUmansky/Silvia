@@ -109,7 +109,7 @@ ul {
 
 #intro h1 {
     font-size: 50px;
-    color: #c7e9ed;
+    color: #74b0c6;
     font-style: italic;
     text-shadow: -3px 2px 1px #5a5c4f, -2px 1px 25px #7e0c0c;
 }
@@ -199,7 +199,7 @@ h3 {
 
 #about-sec a:hover {
     background-color: #5ab879;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #about-sec a img {
@@ -243,7 +243,7 @@ h3 {
     z-index: 10;
 }
 
-.flex-items2 > div {
+.flex-items2>div {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -285,7 +285,7 @@ h3 {
 .container h1 {
     text-align: center;
     margin-bottom: 30px;
-} 
+}
 
 .swiper {
     width: 80%;
@@ -332,17 +332,24 @@ h3 {
     border-radius: 5px;
     background-color: #f7c08a;
     color: #333;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 
-#testimonials .testimonial span {
-    float: right;
+#testimonials .testimonial img {
+    width: 60px;
     margin-left: 20px;
 }
 
+.testimonial p {
+    font-style: italic;
+    font-weight: 700;
+}
 
-
-
-
+            
+              
+              
 
 @keyframes move {
     to {
