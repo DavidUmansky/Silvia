@@ -499,6 +499,11 @@ h3 {
         margin-bottom: 316px;
     }
 
+    .flex-items2 {
+        margin-top: initial;
+    }
+
+
 }
 
 @media (max-width: 372px) {

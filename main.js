@@ -4,17 +4,24 @@ const section = document.getElementById('introSec');
 const header = document.getElementById('navbar');
 const nav = document.getElementById('header');
 
-section.style.height = div.offsetWidth + 'px';
+if (window.innerWidth > 430) {
+    section.style.height = div.offsetWidth + 'px';    
 
-window.addEventListener('scroll', function () {
-    // let offset = window.scrollY;
-    // parallax.style.backgroundPositionY = offset * -0.1 + 'px';
-    // console.log(window.pageYOffset);
-    if (window.pageYOffset > 900) {
-        let offset = window.scrollY;
-        parallax.style.backgroundPositionY = offset * -0.15 + 200 + 'px';
-    }
-})
+    window.addEventListener('scroll', function () {
+        // let offset = window.scrollY;
+        // parallax.style.backgroundPositionY = offset * -0.1 + 'px';
+        // console.log(window.pageYOffset);
+        if (window.pageYOffset > 900) {
+            let offset = window.scrollY;
+            parallax.style.backgroundPositionY = offset * -0.15 + 200 + 'px';
+        }
+    })
+    
+}
+
+
+
+
 
 const swiper = new Swiper('.swiper', {
 
@@ -36,7 +43,6 @@ const swiper = new Swiper('.swiper', {
     },
 
 });
-
 
 
 
