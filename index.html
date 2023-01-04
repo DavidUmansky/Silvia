@@ -44,10 +44,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">בית</a></li>
-                    <li><a href="#about">אודות</a></li>
-                    <li><a href="#cases">מנדלות נבחרות</a></li>
-                    <li><a href="#blog">המלצות</a></li>
+                    <li><a href="#">בית</a></li>
+                    <li><a href="#about-sec">אודות</a></li>
+                    <li><a href="#slider-sec">מנדלות נבחרות</a></li>
+                    <li><a href="#testimonials">המלצות</a></li>
                 </ul>
             </nav>
         </div>
@@ -208,6 +208,29 @@
                 src="img/logoDavweb.png" alt="">
         </a>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        
+        // Smooth Scrolling
+        $('#navbar a').on('click', function (e) {
+            if (this.hash !== '') {
+                e.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate(
+                    {
+                        scrollTop: $(hash).offset().top + 1,
+                    },
+                    800
+                );
+            }
+        });
+
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
