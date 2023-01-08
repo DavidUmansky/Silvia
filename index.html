@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>סילביה פנחס-סדנת מנדלות|ציור מנדלות| חוג ציור|חוג אומנות</title>
     <style>
-        @media (max-width: 430px) {
+        @media (max-width: 800px) {
 
             #about-sec h1,
             .container h2,
@@ -26,8 +26,6 @@
             .flex-items2 img {
                 margin-bottom: initial !important;
             }
-
-
         }
     </style>
 </head>
@@ -73,6 +71,23 @@
     </header>
 
     <main>
+        <div id="sideI">
+            <a href="tel:0507788873">
+                <img src="img/smartphone.png" alt="" class="endI">
+            </a>
+            <a
+                href="https://wa.me/972507788873?text=היי,+אשמח+לברר+לגבי+סדנת+ציור+מנדלות,+אפשר+לשמוע+פרטים?+אשמח+שתחזרי+אלי">
+                <img src="img/whatsapp.png" alt="" class="endI">
+            </a>
+        </div>
+
+        <div id="top">
+            <a href="#header">
+                <img src="img/up.png" alt="" class="endI">
+            </a>
+        </div>
+
+
         <section id="about-sec" class="about-sed">
             <div id="div">
                 <h1>סדנת ציור מנדלות</h1>
@@ -96,7 +111,7 @@
 
                 <div id="click">
                     <h3>הזמנת סדנה</h3>
-                    <a href="tel:0507788873">בטלפון
+                    <a href="https://wa.me/972507788873?text=היי,+אשמח+לברר+לגבי+סדנת+ציור+מנדלות,+אפשר+לשמוע+פרטים?+אשמח+שתחזרי+אלי">בטלפון
                         <img src="img/smartphone.png" alt="">
                     </a>
                     <a href="https://wa.me/+972507788873">בווצאפ
@@ -204,18 +219,18 @@
             DAVWEB בניית אתרים
         </p>
         <a target="_blank"
-                href="https://www.facebook.com/Davweb-%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-100670495406906"><img
+            href="https://www.facebook.com/Davweb-%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-100670495406906"><img
                 src="img/logoDavweb.png" alt="">
         </a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script>
-        
+
         // Smooth Scrolling
-        $('#navbar a').on('click', function (e) {
+        $('#navbar a, #top a').on('click', function (e) {
             if (this.hash !== '') {
                 e.preventDefault();
 
@@ -229,6 +244,8 @@
                 );
             }
         });
+
+
 
     </script>
 

@@ -4,7 +4,8 @@ const section = document.getElementById('introSec');
 const header = document.getElementById('navbar');
 const nav = document.getElementById('header');
 
-if (window.innerWidth > 430) {
+
+if (window.innerWidth > 1002) {
     section.style.height = div.offsetWidth + 'px';    
 
     window.addEventListener('scroll', function () {
@@ -15,12 +16,14 @@ if (window.innerWidth > 430) {
             let offset = window.scrollY;
             parallax.style.backgroundPositionY = offset * -0.15 + 200 + 'px';
         }
+
+        if(window.innerHeight > 590) {
+            let offset = window.scrollY;
+            parallax.style.backgroundPositionY = offset * 0 + 'px';
+        } 
     })
     
 }
-
-
-
 
 
 const swiper = new Swiper('.swiper', {
