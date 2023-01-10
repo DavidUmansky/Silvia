@@ -14,7 +14,7 @@ if (window.innerWidth > 1002) {
         // console.log(window.pageYOffset);
         if (window.pageYOffset > 900) {
             let offset = window.scrollY;
-            parallax.style.backgroundPositionY = offset * -0.15 + 200 + 'px';
+            parallax.style.backgroundPositionY = offset * -0.15 + 250 + 'px';
         }
 
         if(window.innerHeight > 590) {
